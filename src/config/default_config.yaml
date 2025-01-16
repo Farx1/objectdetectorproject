@@ -1,0 +1,41 @@
+# Configuration par défaut pour le détecteur d'objets
+
+# Paramètres des modèles
+models:
+  default_type: "YOLO (Détection générale)"
+  default_version: "YOLOv8s (Équilibré)"
+  save_directory: "models/"
+
+# Paramètres de détection
+detection:
+  confidence_threshold: 0.3
+  show_labels: true
+  show_confidence: true
+  show_fps: true
+  enable_tracking: false
+
+# Paramètres d'affichage
+display:
+  window_title: "Détecteur d'Objets en Temps Réel"
+  layout: "wide"
+  theme: "light"
+
+# Paramètres d'enregistrement
+recording:
+  enabled: false
+  output_directory: "output/"
+  video_fps: 20
+  video_format: "mp4"
+
+# Paramètres d'analyse
+analytics:
+  enabled: true
+  save_history: true
+  max_history_size: 1000
+  update_interval: 1  # secondes
+
+# Paramètres de performance
+performance:
+  use_gpu: true  # si disponible
+  batch_size: 1
+  frame_skip: 0  # 0 = pas de skip 
