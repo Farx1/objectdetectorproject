@@ -84,3 +84,4 @@
 - YOLO-Face
 - YOLO-Pose
 - YOLO-Seg 
+
