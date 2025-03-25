@@ -94,6 +94,8 @@ streamlit run src/main.py
 
 - **Modèle YOLO11 non trouvé**: Vérifiez que vous avez placé au moins un fichier modèle valide (*.pt) dans le dossier `src/models/`.
 
+- **Problème de compatibilité**: Si besoin utiliser `pip install ultralytics --upgrade`.
+
 ## 🛠️ Configuration système requise
 
 - Python 3.8+
