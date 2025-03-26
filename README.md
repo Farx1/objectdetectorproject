@@ -180,6 +180,7 @@ YOLO11 est la dernière génération des modèles YOLO, avec des améliorations 
 - **Tailles disponibles** :
   - **Nano (n)** : Idéal pour appareils mobiles et systèmes embarqués
   - **Small (s)** : Bon équilibre pour la plupart des applications
+    (--> à partir il faut probablement un odinateur plus puissant que la moyenne)
   - **Medium (m)** : Pour applications professionnelles nécessitant plus de précision
   - **Large (l)** : Haute précision, requiert un GPU
   - **XLarge (x)** : Performance maximale, nécessite un GPU puissant
